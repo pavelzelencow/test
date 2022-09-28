@@ -126,6 +126,10 @@ body {
     background-color: #232323;
 }
 
+.call__btn {
+    display: none;
+}
+
 .window {
     display: none;
     max-width: 320px;
@@ -872,6 +876,24 @@ body {
 
     .header__btn {
         display: none;
+    }
+
+    .call__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        width: 70px;
+        height: 70px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .call__btn:hover {
+        background-color: transparent;
+        outline: none;
     }
 
     .about__title {
